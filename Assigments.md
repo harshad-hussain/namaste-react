@@ -87,3 +87,23 @@ A: The `node_modules` folder contains generated code. This is not code you've wr
 ## Q: What is `browserlists`?
 
 A: Browserslist defines and shares the list of target browsers between various frontend build tools.
+
+
+
+ ## coding EP 3 --------------------------------------------------------
+const NestedHeader = React.createElement("div",{class:"title"},
+    [React.createElement("h1",{},"Heading1"),
+      React.createElement("h2",{},"Heading2"),
+      React.createElement("h3",{},"Heading3")
+    ]);
+
+    const NestedHeader2 =()=>(
+         <div className="title">
+          {NestedHeader}
+          <h1>heading 1</h1>
+            <h2> heading 2</h2>
+              <h3>heading 3</h3>
+         </div>
+    )
+
+## -------------------------------------------------------------------------
