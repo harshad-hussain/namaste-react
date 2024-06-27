@@ -762,11 +762,6 @@ const resList =
                 "Juices",
                 "Beverages",
                 "Snacks",
-                "Momos",
-                "Burgers",
-                "rolls",
-                "Pizzas",
-                "Waffle"
               ],
               "avgRating": 4.3,
               "veg": true,

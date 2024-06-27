@@ -1,12 +1,12 @@
 import { LOGO_URL } from "../utils/constants";
 
 const Header =(props) =>{
-    
     return(
       <div className="header">
         <div className="logo-container">
            <img className="logo"
-            src={LOGO_URL} />
+            src={LOGO_URL} 
+            />
         </div>
         <div className ="nav-items">
            <ul>

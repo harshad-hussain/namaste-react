@@ -12,6 +12,7 @@ const RestaurantCard = (props) => {
     deliveryTime: infoDeliveryTime,
     sla,
   } = resData?.info || {};
+  
 
   const deliveryTime = sla?.deliveryTime || infoDeliveryTime;
 
@@ -22,6 +23,7 @@ const RestaurantCard = (props) => {
         alt="res-logo"
         src={CDN_URL + cloudinaryImageId}
       />
+     
       <h3>{name}</h3>
       <h4>{cuisines.join(",")}</h4>
       <h4>{avgRating}</h4>

@@ -7,7 +7,7 @@ import Body from "./components/Body";
 const Applayout = () => {
   return(
     <div className="app">
-      <Header  homename="burjkhalifa"/>
+      <Header homename="burjkhalifa"/>
       <Body/>
     </div>
   )
