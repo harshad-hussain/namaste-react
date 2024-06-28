@@ -26,8 +26,14 @@
     width: 200px;
     padding: 5px;
     margin: 5px;
-    background-color: #D3D3D3;
+    background-color: #ffffff;
+    box-shadow: -3px 6px 5px 0px rgba(176,164,176,1);
+    transition: all .3s ease-in-out;
 }
+
+.res-card:hover {
+    box-shadow: -3px 18px 20px 0px rgb(42, 40, 40);
+  }
 
 .res-container{
     display: flex;
@@ -71,4 +77,12 @@
 
 .filter{
     display: flex;
+}
+
+.search-btn{
+    cursor: pointer;
+}
+
+.name-detail{
+    color: #FC4100;
 }

@@ -12,9 +12,7 @@ const Body = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9352403&lng=77.624532&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-    );
+    const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9856503&lng=77.60569269999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
 
     const json = await data.json();
     console.log(json);
@@ -45,7 +43,7 @@ const Body = () => {
               setSearchText(e.target.value);
             }}
           />
-          <button
+          <button className="search-btn"
             onClick={() => {
               const filteredRestaurant = listOfRestaurants.filter((res) => res.info.name.toLowerCase().includes(searchText.toLowerCase()));
               setFilteredRestaurant (filteredRestaurant);
@@ -58,11 +56,10 @@ const Body = () => {
 
         <button
           type="button"
-          class="filter-btn"
+          className="filter-btn"
           onClick={() => {
             const filteredList = listOfRestaurants.filter(
               (res) => res.info.avgRating > 4.2
-              
             );
             setFilteredRestaurant(filteredList);
           }}
