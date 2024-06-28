@@ -23,7 +23,7 @@
 
 .res-card{
     border: 1px solid black;
-    width: 210px;
+    width: 200px;
     padding: 5px;
     margin: 5px;
     background-color: #D3D3D3;
@@ -62,4 +62,13 @@
 .shimmer-container{
     display: flex;
     flex-wrap: wrap;
+}
+
+.login-btn{
+    cursor: pointer;
+     padding: 0 20px;
+}
+
+.filter{
+    display: flex;
 }
