@@ -63,3 +63,8 @@ const HeadingComponent2 = () =>
   2.Named export/import:
     -export const Component;
     -import{Component} from "path";
+
+
+    ------------------routing ---------
+    1. client side routing 
+    2.server side routing 

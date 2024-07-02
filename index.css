@@ -86,3 +86,35 @@
 .name-detail{
     color: #FC4100;
 }
+
+.items-card{
+    display: flex;
+    border: 1px solid black;
+    width: 800px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 300px;
+    background-color: #ffffff;
+    box-shadow: -3px 6px 5px 0px rgba(176,164,176,1);
+    transition: all .3s ease-in-out;
+}
+
+.items-card:hover{
+    border: 1px solid white;
+    cursor: pointer;   
+}
+
+.card-img{
+    width:80px;
+    height: 80px;
+    padding-bottom: 20px;
+    padding-left: 650px;
+    margin-top: -29px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.top-card{
+    margin-left: 300px; 
+
+}
