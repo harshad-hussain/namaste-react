@@ -11,7 +11,7 @@ class UserClass extends React.Component{
         };
     }
 
-   
+      
     
     render(){
         const{name,location} = this.props;
